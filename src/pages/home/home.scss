@@ -1,0 +1,56 @@
+page-home {
+
+    #main {
+      //background-color: orange;
+      max-width: 500px;
+    }
+  #one {
+    //background-color: blue;
+    height: 100%;
+    max-height: 200px;
+    width: 100%;
+  }
+
+  //h3 {
+  //
+  //}
+
+  #options {
+    //background-color: red;
+    height: 100%;
+    max-height: 100px;
+    width: 100%;
+    //margin-top: 50px;
+  }
+
+  #two {
+    //background-color: green;
+    //height:100%;
+    max-height: 100px;
+    width: 49%;
+    float: right;
+    //margin-left: 5px;
+  }
+
+  #three {
+    //background-color: yellow;
+    //height: 100%;
+    max-height: 100px;
+    width: 49%;
+    float: left;
+    //margin-right: 5px;
+  }
+
+  #anchor, #OptionA, #OptionB {
+    // height: 160px;
+    width: 120px;
+    //background-size: cover;
+
+    padding: 0;
+    margin: auto;
+    display: block;
+  }
+
+
+
+}

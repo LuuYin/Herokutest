@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Generate Training Data
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <p>Name: {{user_name}}</p>
+  <p>COUNTER: {{counter}}</p>
+  <div id="main" *ngIf="images">
+    <div id="one">
+      <ion-img id="anchor" src="assets/imgs/{{images[0]}}"></ion-img>
+    </div>
+
+    <p>Which object is more similar to the object above? </p>
+    <p>Take into consideration the order</p>
+    <ol>
+      <li>Shape</li>
+      <li>Thickness</li>
+    </ol>
+    <div id="options">
+      <div id="two">
+        <ion-img id="OptionA" src="assets/imgs/{{images[1]}}" (click)="select('A')"></ion-img>
+      </div>
+
+      <div id="three">
+        <ion-img id="OptionB" src="assets/imgs/{{images[2]}}" (click)="select('B')"></ion-img>
+      </div>
+    </div>
+  </div>
+
+</ion-content>
